@@ -1,0 +1,1689 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: C1
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target C1
+
+
+#############################################
+# Order-only phony target for C1
+
+build cmake_object_order_depends_target_C1: phony || CMakeFiles/C1.dir
+
+build CMakeFiles/C1.dir/main.c.o: C_COMPILER__C1_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/main.c || cmake_object_order_depends_target_C1
+  DEP_FILE = CMakeFiles/C1.dir/main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/C1.dir
+  OBJECT_FILE_DIR = CMakeFiles/C1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target C1
+
+
+#############################################
+# Link the executable C1
+
+build C1: C_EXECUTABLE_LINKER__C1_Debug CMakeFiles/C1.dir/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/C1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = C1
+  TARGET_PDB = C1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 0001
+
+
+#############################################
+# Order-only phony target for 0001
+
+build cmake_object_order_depends_target_0001: phony || CMakeFiles/0001.dir
+
+build CMakeFiles/0001.dir/0001.c.o: C_COMPILER__0001_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/0001.c || cmake_object_order_depends_target_0001
+  DEP_FILE = CMakeFiles/0001.dir/0001.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/0001.dir
+  OBJECT_FILE_DIR = CMakeFiles/0001.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0001
+
+
+#############################################
+# Link the executable 0001
+
+build 0001: C_EXECUTABLE_LINKER__0001_Debug CMakeFiles/0001.dir/0001.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/0001.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 0001
+  TARGET_PDB = 0001.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 0002
+
+
+#############################################
+# Order-only phony target for 0002
+
+build cmake_object_order_depends_target_0002: phony || CMakeFiles/0002.dir
+
+build CMakeFiles/0002.dir/0002.c.o: C_COMPILER__0002_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/0002.c || cmake_object_order_depends_target_0002
+  DEP_FILE = CMakeFiles/0002.dir/0002.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/0002.dir
+  OBJECT_FILE_DIR = CMakeFiles/0002.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0002
+
+
+#############################################
+# Link the executable 0002
+
+build 0002: C_EXECUTABLE_LINKER__0002_Debug CMakeFiles/0002.dir/0002.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/0002.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 0002
+  TARGET_PDB = 0002.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 0003
+
+
+#############################################
+# Order-only phony target for 0003
+
+build cmake_object_order_depends_target_0003: phony || CMakeFiles/0003.dir
+
+build CMakeFiles/0003.dir/0003.c.o: C_COMPILER__0003_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/0003.c || cmake_object_order_depends_target_0003
+  DEP_FILE = CMakeFiles/0003.dir/0003.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/0003.dir
+  OBJECT_FILE_DIR = CMakeFiles/0003.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0003
+
+
+#############################################
+# Link the executable 0003
+
+build 0003: C_EXECUTABLE_LINKER__0003_Debug CMakeFiles/0003.dir/0003.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/0003.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 0003
+  TARGET_PDB = 0003.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10926
+
+
+#############################################
+# Order-only phony target for 10926
+
+build cmake_object_order_depends_target_10926: phony || CMakeFiles/10926.dir
+
+build CMakeFiles/10926.dir/10926.c.o: C_COMPILER__10926_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10926.c || cmake_object_order_depends_target_10926
+  DEP_FILE = CMakeFiles/10926.dir/10926.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10926.dir
+  OBJECT_FILE_DIR = CMakeFiles/10926.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10926
+
+
+#############################################
+# Link the executable 10926
+
+build 10926: C_EXECUTABLE_LINKER__10926_Debug CMakeFiles/10926.dir/10926.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10926.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10926
+  TARGET_PDB = 10926.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10718
+
+
+#############################################
+# Order-only phony target for 10718
+
+build cmake_object_order_depends_target_10718: phony || CMakeFiles/10718.dir
+
+build CMakeFiles/10718.dir/10718.c.o: C_COMPILER__10718_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10718.c || cmake_object_order_depends_target_10718
+  DEP_FILE = CMakeFiles/10718.dir/10718.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10718.dir
+  OBJECT_FILE_DIR = CMakeFiles/10718.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10718
+
+
+#############################################
+# Link the executable 10718
+
+build 10718: C_EXECUTABLE_LINKER__10718_Debug CMakeFiles/10718.dir/10718.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10718.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10718
+  TARGET_PDB = 10718.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1000
+
+
+#############################################
+# Order-only phony target for 1000
+
+build cmake_object_order_depends_target_1000: phony || CMakeFiles/1000.dir
+
+build CMakeFiles/1000.dir/1000.c.o: C_COMPILER__1000_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1000.c || cmake_object_order_depends_target_1000
+  DEP_FILE = CMakeFiles/1000.dir/1000.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1000.dir
+  OBJECT_FILE_DIR = CMakeFiles/1000.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1000
+
+
+#############################################
+# Link the executable 1000
+
+build 1000: C_EXECUTABLE_LINKER__1000_Debug CMakeFiles/1000.dir/1000.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1000.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1000
+  TARGET_PDB = 1000.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1001
+
+
+#############################################
+# Order-only phony target for 1001
+
+build cmake_object_order_depends_target_1001: phony || CMakeFiles/1001.dir
+
+build CMakeFiles/1001.dir/1001.c.o: C_COMPILER__1001_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1001.c || cmake_object_order_depends_target_1001
+  DEP_FILE = CMakeFiles/1001.dir/1001.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1001.dir
+  OBJECT_FILE_DIR = CMakeFiles/1001.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1001
+
+
+#############################################
+# Link the executable 1001
+
+build 1001: C_EXECUTABLE_LINKER__1001_Debug CMakeFiles/1001.dir/1001.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1001.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1001
+  TARGET_PDB = 1001.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1002
+
+
+#############################################
+# Order-only phony target for 1002
+
+build cmake_object_order_depends_target_1002: phony || CMakeFiles/1002.dir
+
+build CMakeFiles/1002.dir/1002.c.o: C_COMPILER__1002_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1002.c || cmake_object_order_depends_target_1002
+  DEP_FILE = CMakeFiles/1002.dir/1002.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1002.dir
+  OBJECT_FILE_DIR = CMakeFiles/1002.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1002
+
+
+#############################################
+# Link the executable 1002
+
+build 1002: C_EXECUTABLE_LINKER__1002_Debug CMakeFiles/1002.dir/1002.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1002.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1002
+  TARGET_PDB = 1002.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1003
+
+
+#############################################
+# Order-only phony target for 1003
+
+build cmake_object_order_depends_target_1003: phony || CMakeFiles/1003.dir
+
+build CMakeFiles/1003.dir/1003.c.o: C_COMPILER__1003_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1003.c || cmake_object_order_depends_target_1003
+  DEP_FILE = CMakeFiles/1003.dir/1003.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1003.dir
+  OBJECT_FILE_DIR = CMakeFiles/1003.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1003
+
+
+#############################################
+# Link the executable 1003
+
+build 1003: C_EXECUTABLE_LINKER__1003_Debug CMakeFiles/1003.dir/1003.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1003.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1003
+  TARGET_PDB = 1003.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10869
+
+
+#############################################
+# Order-only phony target for 10869
+
+build cmake_object_order_depends_target_10869: phony || CMakeFiles/10869.dir
+
+build CMakeFiles/10869.dir/10869.c.o: C_COMPILER__10869_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10869.c || cmake_object_order_depends_target_10869
+  DEP_FILE = CMakeFiles/10869.dir/10869.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10869.dir
+  OBJECT_FILE_DIR = CMakeFiles/10869.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10869
+
+
+#############################################
+# Link the executable 10869
+
+build 10869: C_EXECUTABLE_LINKER__10869_Debug CMakeFiles/10869.dir/10869.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10869.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10869
+  TARGET_PDB = 10869.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2557
+
+
+#############################################
+# Order-only phony target for 2557
+
+build cmake_object_order_depends_target_2557: phony || CMakeFiles/2557.dir
+
+build CMakeFiles/2557.dir/2557.c.o: C_COMPILER__2557_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2557.c || cmake_object_order_depends_target_2557
+  DEP_FILE = CMakeFiles/2557.dir/2557.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2557.dir
+  OBJECT_FILE_DIR = CMakeFiles/2557.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2557
+
+
+#############################################
+# Link the executable 2557
+
+build 2557: C_EXECUTABLE_LINKER__2557_Debug CMakeFiles/2557.dir/2557.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2557.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2557
+  TARGET_PDB = 2557.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 18108
+
+
+#############################################
+# Order-only phony target for 18108
+
+build cmake_object_order_depends_target_18108: phony || CMakeFiles/18108.dir
+
+build CMakeFiles/18108.dir/18108.c.o: C_COMPILER__18108_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/18108.c || cmake_object_order_depends_target_18108
+  DEP_FILE = CMakeFiles/18108.dir/18108.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/18108.dir
+  OBJECT_FILE_DIR = CMakeFiles/18108.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 18108
+
+
+#############################################
+# Link the executable 18108
+
+build 18108: C_EXECUTABLE_LINKER__18108_Debug CMakeFiles/18108.dir/18108.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/18108.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 18108
+  TARGET_PDB = 18108.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10430
+
+
+#############################################
+# Order-only phony target for 10430
+
+build cmake_object_order_depends_target_10430: phony || CMakeFiles/10430.dir
+
+build CMakeFiles/10430.dir/10430.c.o: C_COMPILER__10430_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10430.c || cmake_object_order_depends_target_10430
+  DEP_FILE = CMakeFiles/10430.dir/10430.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10430.dir
+  OBJECT_FILE_DIR = CMakeFiles/10430.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10430
+
+
+#############################################
+# Link the executable 10430
+
+build 10430: C_EXECUTABLE_LINKER__10430_Debug CMakeFiles/10430.dir/10430.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10430.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10430
+  TARGET_PDB = 10430.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2588
+
+
+#############################################
+# Order-only phony target for 2588
+
+build cmake_object_order_depends_target_2588: phony || CMakeFiles/2588.dir
+
+build CMakeFiles/2588.dir/2588.c.o: C_COMPILER__2588_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2588.c || cmake_object_order_depends_target_2588
+  DEP_FILE = CMakeFiles/2588.dir/2588.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2588.dir
+  OBJECT_FILE_DIR = CMakeFiles/2588.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2588
+
+
+#############################################
+# Link the executable 2588
+
+build 2588: C_EXECUTABLE_LINKER__2588_Debug CMakeFiles/2588.dir/2588.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2588.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2588
+  TARGET_PDB = 2588.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10171
+
+
+#############################################
+# Order-only phony target for 10171
+
+build cmake_object_order_depends_target_10171: phony || CMakeFiles/10171.dir
+
+build CMakeFiles/10171.dir/10171.c.o: C_COMPILER__10171_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10171.c || cmake_object_order_depends_target_10171
+  DEP_FILE = CMakeFiles/10171.dir/10171.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10171.dir
+  OBJECT_FILE_DIR = CMakeFiles/10171.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10171
+
+
+#############################################
+# Link the executable 10171
+
+build 10171: C_EXECUTABLE_LINKER__10171_Debug CMakeFiles/10171.dir/10171.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10171.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10171
+  TARGET_PDB = 10171.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10172
+
+
+#############################################
+# Order-only phony target for 10172
+
+build cmake_object_order_depends_target_10172: phony || CMakeFiles/10172.dir
+
+build CMakeFiles/10172.dir/10172.c.o: C_COMPILER__10172_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10172.c || cmake_object_order_depends_target_10172
+  DEP_FILE = CMakeFiles/10172.dir/10172.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10172.dir
+  OBJECT_FILE_DIR = CMakeFiles/10172.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10172
+
+
+#############################################
+# Link the executable 10172
+
+build 10172: C_EXECUTABLE_LINKER__10172_Debug CMakeFiles/10172.dir/10172.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10172.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10172
+  TARGET_PDB = 10172.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 25083
+
+
+#############################################
+# Order-only phony target for 25083
+
+build cmake_object_order_depends_target_25083: phony || CMakeFiles/25083.dir
+
+build CMakeFiles/25083.dir/25083.c.o: C_COMPILER__25083_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/25083.c || cmake_object_order_depends_target_25083
+  DEP_FILE = CMakeFiles/25083.dir/25083.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/25083.dir
+  OBJECT_FILE_DIR = CMakeFiles/25083.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 25083
+
+
+#############################################
+# Link the executable 25083
+
+build 25083: C_EXECUTABLE_LINKER__25083_Debug CMakeFiles/25083.dir/25083.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/25083.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 25083
+  TARGET_PDB = 25083.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1330
+
+
+#############################################
+# Order-only phony target for 1330
+
+build cmake_object_order_depends_target_1330: phony || CMakeFiles/1330.dir
+
+build CMakeFiles/1330.dir/1330.c.o: C_COMPILER__1330_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1330.c || cmake_object_order_depends_target_1330
+  DEP_FILE = CMakeFiles/1330.dir/1330.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1330.dir
+  OBJECT_FILE_DIR = CMakeFiles/1330.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1330
+
+
+#############################################
+# Link the executable 1330
+
+build 1330: C_EXECUTABLE_LINKER__1330_Debug CMakeFiles/1330.dir/1330.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1330.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1330
+  TARGET_PDB = 1330.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9498
+
+
+#############################################
+# Order-only phony target for 9498
+
+build cmake_object_order_depends_target_9498: phony || CMakeFiles/9498.dir
+
+build CMakeFiles/9498.dir/9498.c.o: C_COMPILER__9498_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/9498.c || cmake_object_order_depends_target_9498
+  DEP_FILE = CMakeFiles/9498.dir/9498.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/9498.dir
+  OBJECT_FILE_DIR = CMakeFiles/9498.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9498
+
+
+#############################################
+# Link the executable 9498
+
+build 9498: C_EXECUTABLE_LINKER__9498_Debug CMakeFiles/9498.dir/9498.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/9498.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 9498
+  TARGET_PDB = 9498.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2753
+
+
+#############################################
+# Order-only phony target for 2753
+
+build cmake_object_order_depends_target_2753: phony || CMakeFiles/2753.dir
+
+build CMakeFiles/2753.dir/2753.c.o: C_COMPILER__2753_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2753.c || cmake_object_order_depends_target_2753
+  DEP_FILE = CMakeFiles/2753.dir/2753.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2753.dir
+  OBJECT_FILE_DIR = CMakeFiles/2753.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2753
+
+
+#############################################
+# Link the executable 2753
+
+build 2753: C_EXECUTABLE_LINKER__2753_Debug CMakeFiles/2753.dir/2753.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2753.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2753
+  TARGET_PDB = 2753.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 14681
+
+
+#############################################
+# Order-only phony target for 14681
+
+build cmake_object_order_depends_target_14681: phony || CMakeFiles/14681.dir
+
+build CMakeFiles/14681.dir/14681.c.o: C_COMPILER__14681_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/14681.c || cmake_object_order_depends_target_14681
+  DEP_FILE = CMakeFiles/14681.dir/14681.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/14681.dir
+  OBJECT_FILE_DIR = CMakeFiles/14681.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 14681
+
+
+#############################################
+# Link the executable 14681
+
+build 14681: C_EXECUTABLE_LINKER__14681_Debug CMakeFiles/14681.dir/14681.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/14681.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 14681
+  TARGET_PDB = 14681.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2884
+
+
+#############################################
+# Order-only phony target for 2884
+
+build cmake_object_order_depends_target_2884: phony || CMakeFiles/2884.dir
+
+build CMakeFiles/2884.dir/2884.c.o: C_COMPILER__2884_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2884.c || cmake_object_order_depends_target_2884
+  DEP_FILE = CMakeFiles/2884.dir/2884.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2884.dir
+  OBJECT_FILE_DIR = CMakeFiles/2884.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2884
+
+
+#############################################
+# Link the executable 2884
+
+build 2884: C_EXECUTABLE_LINKER__2884_Debug CMakeFiles/2884.dir/2884.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2884.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2884
+  TARGET_PDB = 2884.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2525
+
+
+#############################################
+# Order-only phony target for 2525
+
+build cmake_object_order_depends_target_2525: phony || CMakeFiles/2525.dir
+
+build CMakeFiles/2525.dir/2525.c.o: C_COMPILER__2525_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2525.c || cmake_object_order_depends_target_2525
+  DEP_FILE = CMakeFiles/2525.dir/2525.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2525.dir
+  OBJECT_FILE_DIR = CMakeFiles/2525.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2525
+
+
+#############################################
+# Link the executable 2525
+
+build 2525: C_EXECUTABLE_LINKER__2525_Debug CMakeFiles/2525.dir/2525.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2525.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2525
+  TARGET_PDB = 2525.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2480
+
+
+#############################################
+# Order-only phony target for 2480
+
+build cmake_object_order_depends_target_2480: phony || CMakeFiles/2480.dir
+
+build CMakeFiles/2480.dir/2480.c.o: C_COMPILER__2480_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2480.c || cmake_object_order_depends_target_2480
+  DEP_FILE = CMakeFiles/2480.dir/2480.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2480.dir
+  OBJECT_FILE_DIR = CMakeFiles/2480.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2480
+
+
+#############################################
+# Link the executable 2480
+
+build 2480: C_EXECUTABLE_LINKER__2480_Debug CMakeFiles/2480.dir/2480.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2480.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2480
+  TARGET_PDB = 2480.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2739
+
+
+#############################################
+# Order-only phony target for 2739
+
+build cmake_object_order_depends_target_2739: phony || CMakeFiles/2739.dir
+
+build CMakeFiles/2739.dir/2739.c.o: C_COMPILER__2739_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2739.c || cmake_object_order_depends_target_2739
+  DEP_FILE = CMakeFiles/2739.dir/2739.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2739.dir
+  OBJECT_FILE_DIR = CMakeFiles/2739.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2739
+
+
+#############################################
+# Link the executable 2739
+
+build 2739: C_EXECUTABLE_LINKER__2739_Debug CMakeFiles/2739.dir/2739.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2739.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2739
+  TARGET_PDB = 2739.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10950
+
+
+#############################################
+# Order-only phony target for 10950
+
+build cmake_object_order_depends_target_10950: phony || CMakeFiles/10950.dir
+
+build CMakeFiles/10950.dir/10950.c.o: C_COMPILER__10950_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10950.c || cmake_object_order_depends_target_10950
+  DEP_FILE = CMakeFiles/10950.dir/10950.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10950.dir
+  OBJECT_FILE_DIR = CMakeFiles/10950.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10950
+
+
+#############################################
+# Link the executable 10950
+
+build 10950: C_EXECUTABLE_LINKER__10950_Debug CMakeFiles/10950.dir/10950.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10950.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10950
+  TARGET_PDB = 10950.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8393
+
+
+#############################################
+# Order-only phony target for 8393
+
+build cmake_object_order_depends_target_8393: phony || CMakeFiles/8393.dir
+
+build CMakeFiles/8393.dir/8393.c.o: C_COMPILER__8393_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/8393.c || cmake_object_order_depends_target_8393
+  DEP_FILE = CMakeFiles/8393.dir/8393.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/8393.dir
+  OBJECT_FILE_DIR = CMakeFiles/8393.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8393
+
+
+#############################################
+# Link the executable 8393
+
+build 8393: C_EXECUTABLE_LINKER__8393_Debug CMakeFiles/8393.dir/8393.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/8393.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 8393
+  TARGET_PDB = 8393.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 25304
+
+
+#############################################
+# Order-only phony target for 25304
+
+build cmake_object_order_depends_target_25304: phony || CMakeFiles/25304.dir
+
+build CMakeFiles/25304.dir/25304.c.o: C_COMPILER__25304_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/25304.c || cmake_object_order_depends_target_25304
+  DEP_FILE = CMakeFiles/25304.dir/25304.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/25304.dir
+  OBJECT_FILE_DIR = CMakeFiles/25304.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 25304
+
+
+#############################################
+# Link the executable 25304
+
+build 25304: C_EXECUTABLE_LINKER__25304_Debug CMakeFiles/25304.dir/25304.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/25304.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 25304
+  TARGET_PDB = 25304.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 15552
+
+
+#############################################
+# Order-only phony target for 15552
+
+build cmake_object_order_depends_target_15552: phony || CMakeFiles/15552.dir
+
+build CMakeFiles/15552.dir/15552.c.o: C_COMPILER__15552_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/15552.c || cmake_object_order_depends_target_15552
+  DEP_FILE = CMakeFiles/15552.dir/15552.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/15552.dir
+  OBJECT_FILE_DIR = CMakeFiles/15552.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15552
+
+
+#############################################
+# Link the executable 15552
+
+build 15552: C_EXECUTABLE_LINKER__15552_Debug CMakeFiles/15552.dir/15552.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/15552.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 15552
+  TARGET_PDB = 15552.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11021
+
+
+#############################################
+# Order-only phony target for 11021
+
+build cmake_object_order_depends_target_11021: phony || CMakeFiles/11021.dir
+
+build CMakeFiles/11021.dir/11021.c.o: C_COMPILER__11021_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/11021.c || cmake_object_order_depends_target_11021
+  DEP_FILE = CMakeFiles/11021.dir/11021.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/11021.dir
+  OBJECT_FILE_DIR = CMakeFiles/11021.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11021
+
+
+#############################################
+# Link the executable 11021
+
+build 11021: C_EXECUTABLE_LINKER__11021_Debug CMakeFiles/11021.dir/11021.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/11021.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11021
+  TARGET_PDB = 11021.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11022
+
+
+#############################################
+# Order-only phony target for 11022
+
+build cmake_object_order_depends_target_11022: phony || CMakeFiles/11022.dir
+
+build CMakeFiles/11022.dir/11022.c.o: C_COMPILER__11022_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/11022.c || cmake_object_order_depends_target_11022
+  DEP_FILE = CMakeFiles/11022.dir/11022.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/11022.dir
+  OBJECT_FILE_DIR = CMakeFiles/11022.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11022
+
+
+#############################################
+# Link the executable 11022
+
+build 11022: C_EXECUTABLE_LINKER__11022_Debug CMakeFiles/11022.dir/11022.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/11022.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11022
+  TARGET_PDB = 11022.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2438
+
+
+#############################################
+# Order-only phony target for 2438
+
+build cmake_object_order_depends_target_2438: phony || CMakeFiles/2438.dir
+
+build CMakeFiles/2438.dir/2438.c.o: C_COMPILER__2438_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2438.c || cmake_object_order_depends_target_2438
+  DEP_FILE = CMakeFiles/2438.dir/2438.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2438.dir
+  OBJECT_FILE_DIR = CMakeFiles/2438.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2438
+
+
+#############################################
+# Link the executable 2438
+
+build 2438: C_EXECUTABLE_LINKER__2438_Debug CMakeFiles/2438.dir/2438.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2438.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2438
+  TARGET_PDB = 2438.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2439
+
+
+#############################################
+# Order-only phony target for 2439
+
+build cmake_object_order_depends_target_2439: phony || CMakeFiles/2439.dir
+
+build CMakeFiles/2439.dir/2439.c.o: C_COMPILER__2439_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2439.c || cmake_object_order_depends_target_2439
+  DEP_FILE = CMakeFiles/2439.dir/2439.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2439.dir
+  OBJECT_FILE_DIR = CMakeFiles/2439.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2439
+
+
+#############################################
+# Link the executable 2439
+
+build 2439: C_EXECUTABLE_LINKER__2439_Debug CMakeFiles/2439.dir/2439.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2439.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2439
+  TARGET_PDB = 2439.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10871
+
+
+#############################################
+# Order-only phony target for 10871
+
+build cmake_object_order_depends_target_10871: phony || CMakeFiles/10871.dir
+
+build CMakeFiles/10871.dir/10871.c.o: C_COMPILER__10871_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10871.c || cmake_object_order_depends_target_10871
+  DEP_FILE = CMakeFiles/10871.dir/10871.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10871.dir
+  OBJECT_FILE_DIR = CMakeFiles/10871.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10871
+
+
+#############################################
+# Link the executable 10871
+
+build 10871: C_EXECUTABLE_LINKER__10871_Debug CMakeFiles/10871.dir/10871.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10871.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10871
+  TARGET_PDB = 10871.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10952
+
+
+#############################################
+# Order-only phony target for 10952
+
+build cmake_object_order_depends_target_10952: phony || CMakeFiles/10952.dir
+
+build CMakeFiles/10952.dir/10952.c.o: C_COMPILER__10952_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10952.c || cmake_object_order_depends_target_10952
+  DEP_FILE = CMakeFiles/10952.dir/10952.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10952.dir
+  OBJECT_FILE_DIR = CMakeFiles/10952.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10952
+
+
+#############################################
+# Link the executable 10952
+
+build 10952: C_EXECUTABLE_LINKER__10952_Debug CMakeFiles/10952.dir/10952.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10952.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10952
+  TARGET_PDB = 10952.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10951
+
+
+#############################################
+# Order-only phony target for 10951
+
+build cmake_object_order_depends_target_10951: phony || CMakeFiles/10951.dir
+
+build CMakeFiles/10951.dir/10951.c.o: C_COMPILER__10951_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10951.c || cmake_object_order_depends_target_10951
+  DEP_FILE = CMakeFiles/10951.dir/10951.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10951.dir
+  OBJECT_FILE_DIR = CMakeFiles/10951.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10951
+
+
+#############################################
+# Link the executable 10951
+
+build 10951: C_EXECUTABLE_LINKER__10951_Debug CMakeFiles/10951.dir/10951.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10951.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10951
+  TARGET_PDB = 10951.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1110
+
+
+#############################################
+# Order-only phony target for 1110
+
+build cmake_object_order_depends_target_1110: phony || CMakeFiles/1110.dir
+
+build CMakeFiles/1110.dir/1110.c.o: C_COMPILER__1110_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1110.c || cmake_object_order_depends_target_1110
+  DEP_FILE = CMakeFiles/1110.dir/1110.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1110.dir
+  OBJECT_FILE_DIR = CMakeFiles/1110.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1110
+
+
+#############################################
+# Link the executable 1110
+
+build 1110: C_EXECUTABLE_LINKER__1110_Debug CMakeFiles/1110.dir/1110.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1110.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1110
+  TARGET_PDB = 1110.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10818
+
+
+#############################################
+# Order-only phony target for 10818
+
+build cmake_object_order_depends_target_10818: phony || CMakeFiles/10818.dir
+
+build CMakeFiles/10818.dir/10818.c.o: C_COMPILER__10818_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10818.c || cmake_object_order_depends_target_10818
+  DEP_FILE = CMakeFiles/10818.dir/10818.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10818.dir
+  OBJECT_FILE_DIR = CMakeFiles/10818.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10818
+
+
+#############################################
+# Link the executable 10818
+
+build 10818: C_EXECUTABLE_LINKER__10818_Debug CMakeFiles/10818.dir/10818.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10818.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10818
+  TARGET_PDB = 10818.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2562
+
+
+#############################################
+# Order-only phony target for 2562
+
+build cmake_object_order_depends_target_2562: phony || CMakeFiles/2562.dir
+
+build CMakeFiles/2562.dir/2562.c.o: C_COMPILER__2562_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2562.c || cmake_object_order_depends_target_2562
+  DEP_FILE = CMakeFiles/2562.dir/2562.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2562.dir
+  OBJECT_FILE_DIR = CMakeFiles/2562.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2562
+
+
+#############################################
+# Link the executable 2562
+
+build 2562: C_EXECUTABLE_LINKER__2562_Debug CMakeFiles/2562.dir/2562.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2562.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2562
+  TARGET_PDB = 2562.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3052
+
+
+#############################################
+# Order-only phony target for 3052
+
+build cmake_object_order_depends_target_3052: phony || CMakeFiles/3052.dir
+
+build CMakeFiles/3052.dir/3052.c.o: C_COMPILER__3052_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/3052.c || cmake_object_order_depends_target_3052
+  DEP_FILE = CMakeFiles/3052.dir/3052.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/3052.dir
+  OBJECT_FILE_DIR = CMakeFiles/3052.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3052
+
+
+#############################################
+# Link the executable 3052
+
+build 3052: C_EXECUTABLE_LINKER__3052_Debug CMakeFiles/3052.dir/3052.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/3052.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3052
+  TARGET_PDB = 3052.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1546
+
+
+#############################################
+# Order-only phony target for 1546
+
+build cmake_object_order_depends_target_1546: phony || CMakeFiles/1546.dir
+
+build CMakeFiles/1546.dir/1546.c.o: C_COMPILER__1546_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1546.c || cmake_object_order_depends_target_1546
+  DEP_FILE = CMakeFiles/1546.dir/1546.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1546.dir
+  OBJECT_FILE_DIR = CMakeFiles/1546.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1546
+
+
+#############################################
+# Link the executable 1546
+
+build 1546: C_EXECUTABLE_LINKER__1546_Debug CMakeFiles/1546.dir/1546.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1546.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1546
+  TARGET_PDB = 1546.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8958
+
+
+#############################################
+# Order-only phony target for 8958
+
+build cmake_object_order_depends_target_8958: phony || CMakeFiles/8958.dir
+
+build CMakeFiles/8958.dir/8958.c.o: C_COMPILER__8958_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/8958.c || cmake_object_order_depends_target_8958
+  DEP_FILE = CMakeFiles/8958.dir/8958.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/8958.dir
+  OBJECT_FILE_DIR = CMakeFiles/8958.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8958
+
+
+#############################################
+# Link the executable 8958
+
+build 8958: C_EXECUTABLE_LINKER__8958_Debug CMakeFiles/8958.dir/8958.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/8958.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 8958
+  TARGET_PDB = 8958.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4344
+
+
+#############################################
+# Order-only phony target for 4344
+
+build cmake_object_order_depends_target_4344: phony || CMakeFiles/4344.dir
+
+build CMakeFiles/4344.dir/4344.c.o: C_COMPILER__4344_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/4344.c || cmake_object_order_depends_target_4344
+  DEP_FILE = CMakeFiles/4344.dir/4344.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/4344.dir
+  OBJECT_FILE_DIR = CMakeFiles/4344.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4344
+
+
+#############################################
+# Link the executable 4344
+
+build 4344: C_EXECUTABLE_LINKER__4344_Debug CMakeFiles/4344.dir/4344.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/4344.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4344
+  TARGET_PDB = 4344.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 15596
+
+
+#############################################
+# Order-only phony target for 15596
+
+build cmake_object_order_depends_target_15596: phony || CMakeFiles/15596.dir
+
+build CMakeFiles/15596.dir/15596.c.o: C_COMPILER__15596_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/15596.c || cmake_object_order_depends_target_15596
+  DEP_FILE = CMakeFiles/15596.dir/15596.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/15596.dir
+  OBJECT_FILE_DIR = CMakeFiles/15596.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15596
+
+
+#############################################
+# Link the executable 15596
+
+build 15596: C_EXECUTABLE_LINKER__15596_Debug CMakeFiles/15596.dir/15596.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/15596.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 15596
+  TARGET_PDB = 15596.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4673
+
+
+#############################################
+# Order-only phony target for 4673
+
+build cmake_object_order_depends_target_4673: phony || CMakeFiles/4673.dir
+
+build CMakeFiles/4673.dir/4673.c.o: C_COMPILER__4673_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/4673.c || cmake_object_order_depends_target_4673
+  DEP_FILE = CMakeFiles/4673.dir/4673.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/4673.dir
+  OBJECT_FILE_DIR = CMakeFiles/4673.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4673
+
+
+#############################################
+# Link the executable 4673
+
+build 4673: C_EXECUTABLE_LINKER__4673_Debug CMakeFiles/4673.dir/4673.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/4673.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4673
+  TARGET_PDB = 4673.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1065
+
+
+#############################################
+# Order-only phony target for 1065
+
+build cmake_object_order_depends_target_1065: phony || CMakeFiles/1065.dir
+
+build CMakeFiles/1065.dir/1065.c.o: C_COMPILER__1065_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1065.c || cmake_object_order_depends_target_1065
+  DEP_FILE = CMakeFiles/1065.dir/1065.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1065.dir
+  OBJECT_FILE_DIR = CMakeFiles/1065.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1065
+
+
+#############################################
+# Link the executable 1065
+
+build 1065: C_EXECUTABLE_LINKER__1065_Debug CMakeFiles/1065.dir/1065.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1065.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1065
+  TARGET_PDB = 1065.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11654
+
+
+#############################################
+# Order-only phony target for 11654
+
+build cmake_object_order_depends_target_11654: phony || CMakeFiles/11654.dir
+
+build CMakeFiles/11654.dir/11654.c.o: C_COMPILER__11654_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/11654.c || cmake_object_order_depends_target_11654
+  DEP_FILE = CMakeFiles/11654.dir/11654.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/11654.dir
+  OBJECT_FILE_DIR = CMakeFiles/11654.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11654
+
+
+#############################################
+# Link the executable 11654
+
+build 11654: C_EXECUTABLE_LINKER__11654_Debug CMakeFiles/11654.dir/11654.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/11654.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11654
+  TARGET_PDB = 11654.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11720
+
+
+#############################################
+# Order-only phony target for 11720
+
+build cmake_object_order_depends_target_11720: phony || CMakeFiles/11720.dir
+
+build CMakeFiles/11720.dir/11720.c.o: C_COMPILER__11720_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/11720.c || cmake_object_order_depends_target_11720
+  DEP_FILE = CMakeFiles/11720.dir/11720.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/11720.dir
+  OBJECT_FILE_DIR = CMakeFiles/11720.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11720
+
+
+#############################################
+# Link the executable 11720
+
+build 11720: C_EXECUTABLE_LINKER__11720_Debug CMakeFiles/11720.dir/11720.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/11720.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11720
+  TARGET_PDB = 11720.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10809
+
+
+#############################################
+# Order-only phony target for 10809
+
+build cmake_object_order_depends_target_10809: phony || CMakeFiles/10809.dir
+
+build CMakeFiles/10809.dir/10809.c.o: C_COMPILER__10809_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/10809.c || cmake_object_order_depends_target_10809
+  DEP_FILE = CMakeFiles/10809.dir/10809.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10809.dir
+  OBJECT_FILE_DIR = CMakeFiles/10809.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10809
+
+
+#############################################
+# Link the executable 10809
+
+build 10809: C_EXECUTABLE_LINKER__10809_Debug CMakeFiles/10809.dir/10809.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10809.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10809
+  TARGET_PDB = 10809.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2675
+
+
+#############################################
+# Order-only phony target for 2675
+
+build cmake_object_order_depends_target_2675: phony || CMakeFiles/2675.dir
+
+build CMakeFiles/2675.dir/2675.c.o: C_COMPILER__2675_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2675.c || cmake_object_order_depends_target_2675
+  DEP_FILE = CMakeFiles/2675.dir/2675.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2675.dir
+  OBJECT_FILE_DIR = CMakeFiles/2675.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2675
+
+
+#############################################
+# Link the executable 2675
+
+build 2675: C_EXECUTABLE_LINKER__2675_Debug CMakeFiles/2675.dir/2675.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2675.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2675
+  TARGET_PDB = 2675.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1 -B/Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug
+
+build all: phony C1 0001 0002 0003 10926 10718 1000 1001 1002 1003 10869 2557 18108 10430 2588 10171 10172 25083 1330 9498 2753 14681 2884 2525 2480 2739 10950 8393 25304 15552 11021 11022 2438 2439 10871 10952 10951 1110 10818 2562 3052 1546 8958 4344 15596 4673 1065 11654 11720 10809 2675
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
