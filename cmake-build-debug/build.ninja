@@ -1618,6 +1618,130 @@ build 2675: C_EXECUTABLE_LINKER__2675_Debug CMakeFiles/2675.dir/2675.c.o
   TARGET_FILE = 2675
   TARGET_PDB = 2675.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1157
+
+
+#############################################
+# Order-only phony target for 1157
+
+build cmake_object_order_depends_target_1157: phony || CMakeFiles/1157.dir
+
+build CMakeFiles/1157.dir/1157.c.o: C_COMPILER__1157_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1157.c || cmake_object_order_depends_target_1157
+  DEP_FILE = CMakeFiles/1157.dir/1157.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1157.dir
+  OBJECT_FILE_DIR = CMakeFiles/1157.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1157
+
+
+#############################################
+# Link the executable 1157
+
+build 1157: C_EXECUTABLE_LINKER__1157_Debug CMakeFiles/1157.dir/1157.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1157.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1157
+  TARGET_PDB = 1157.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1152
+
+
+#############################################
+# Order-only phony target for 1152
+
+build cmake_object_order_depends_target_1152: phony || CMakeFiles/1152.dir
+
+build CMakeFiles/1152.dir/1152.c.o: C_COMPILER__1152_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1152.c || cmake_object_order_depends_target_1152
+  DEP_FILE = CMakeFiles/1152.dir/1152.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1152.dir
+  OBJECT_FILE_DIR = CMakeFiles/1152.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1152
+
+
+#############################################
+# Link the executable 1152
+
+build 1152: C_EXECUTABLE_LINKER__1152_Debug CMakeFiles/1152.dir/1152.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1152.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1152
+  TARGET_PDB = 1152.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2908
+
+
+#############################################
+# Order-only phony target for 2908
+
+build cmake_object_order_depends_target_2908: phony || CMakeFiles/2908.dir
+
+build CMakeFiles/2908.dir/2908.c.o: C_COMPILER__2908_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2908.c || cmake_object_order_depends_target_2908
+  DEP_FILE = CMakeFiles/2908.dir/2908.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2908.dir
+  OBJECT_FILE_DIR = CMakeFiles/2908.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2908
+
+
+#############################################
+# Link the executable 2908
+
+build 2908: C_EXECUTABLE_LINKER__2908_Debug CMakeFiles/2908.dir/2908.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2908.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2908
+  TARGET_PDB = 2908.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5622
+
+
+#############################################
+# Order-only phony target for 5622
+
+build cmake_object_order_depends_target_5622: phony || CMakeFiles/5622.dir
+
+build CMakeFiles/5622.dir/5622.c.o: C_COMPILER__5622_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/5622.c || cmake_object_order_depends_target_5622
+  DEP_FILE = CMakeFiles/5622.dir/5622.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/5622.dir
+  OBJECT_FILE_DIR = CMakeFiles/5622.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5622
+
+
+#############################################
+# Link the executable 5622
+
+build 5622: C_EXECUTABLE_LINKER__5622_Debug CMakeFiles/5622.dir/5622.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/5622.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 5622
+  TARGET_PDB = 5622.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1652,7 +1776,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug
 
-build all: phony C1 0001 0002 0003 10926 10718 1000 1001 1002 1003 10869 2557 18108 10430 2588 10171 10172 25083 1330 9498 2753 14681 2884 2525 2480 2739 10950 8393 25304 15552 11021 11022 2438 2439 10871 10952 10951 1110 10818 2562 3052 1546 8958 4344 15596 4673 1065 11654 11720 10809 2675
+build all: phony C1 0001 0002 0003 10926 10718 1000 1001 1002 1003 10869 2557 18108 10430 2588 10171 10172 25083 1330 9498 2753 14681 2884 2525 2480 2739 10950 8393 25304 15552 11021 11022 2438 2439 10871 10952 10951 1110 10818 2562 3052 1546 8958 4344 15596 4673 1065 11654 11720 10809 2675 1157 1152 2908 5622
 
 # =============================================================================
 # Built-in targets
