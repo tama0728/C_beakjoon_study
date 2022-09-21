@@ -53,5 +53,7 @@
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/1152.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/2908.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/5622.dir
+/Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/2941.dir
+/Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/1316.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
