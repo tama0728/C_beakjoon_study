@@ -1804,6 +1804,99 @@ build 1316: C_EXECUTABLE_LINKER__1316_Debug CMakeFiles/1316.dir/1316.c.o
   TARGET_FILE = 1316
   TARGET_PDB = 1316.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 1712
+
+
+#############################################
+# Order-only phony target for 1712
+
+build cmake_object_order_depends_target_1712: phony || CMakeFiles/1712.dir
+
+build CMakeFiles/1712.dir/1712.c.o: C_COMPILER__1712_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1712.c || cmake_object_order_depends_target_1712
+  DEP_FILE = CMakeFiles/1712.dir/1712.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1712.dir
+  OBJECT_FILE_DIR = CMakeFiles/1712.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1712
+
+
+#############################################
+# Link the executable 1712
+
+build 1712: C_EXECUTABLE_LINKER__1712_Debug CMakeFiles/1712.dir/1712.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1712.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1712
+  TARGET_PDB = 1712.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2292
+
+
+#############################################
+# Order-only phony target for 2292
+
+build cmake_object_order_depends_target_2292: phony || CMakeFiles/2292.dir
+
+build CMakeFiles/2292.dir/2292.c.o: C_COMPILER__2292_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/2292.c || cmake_object_order_depends_target_2292
+  DEP_FILE = CMakeFiles/2292.dir/2292.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/2292.dir
+  OBJECT_FILE_DIR = CMakeFiles/2292.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2292
+
+
+#############################################
+# Link the executable 2292
+
+build 2292: C_EXECUTABLE_LINKER__2292_Debug CMakeFiles/2292.dir/2292.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/2292.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2292
+  TARGET_PDB = 2292.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1193
+
+
+#############################################
+# Order-only phony target for 1193
+
+build cmake_object_order_depends_target_1193: phony || CMakeFiles/1193.dir
+
+build CMakeFiles/1193.dir/1193.c.o: C_COMPILER__1193_Debug /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/1193.c || cmake_object_order_depends_target_1193
+  DEP_FILE = CMakeFiles/1193.dir/1193.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/1193.dir
+  OBJECT_FILE_DIR = CMakeFiles/1193.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1193
+
+
+#############################################
+# Link the executable 1193
+
+build 1193: C_EXECUTABLE_LINKER__1193_Debug CMakeFiles/1193.dir/1193.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/1193.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1193
+  TARGET_PDB = 1193.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1838,7 +1931,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/gimdong-yun/Desktop/SynologyDrive/F/ShortCut/Uni/study/2022.23Q/C1/cmake-build-debug
 
-build all: phony C1 0001 0002 0003 10926 10718 1000 1001 1002 1003 10869 2557 18108 10430 2588 10171 10172 25083 1330 9498 2753 14681 2884 2525 2480 2739 10950 8393 25304 15552 11021 11022 2438 2439 10871 10952 10951 1110 10818 2562 3052 1546 8958 4344 15596 4673 1065 11654 11720 10809 2675 1157 1152 2908 5622 2941 1316
+build all: phony C1 0001 0002 0003 10926 10718 1000 1001 1002 1003 10869 2557 18108 10430 2588 10171 10172 25083 1330 9498 2753 14681 2884 2525 2480 2739 10950 8393 25304 15552 11021 11022 2438 2439 10871 10952 10951 1110 10818 2562 3052 1546 8958 4344 15596 4673 1065 11654 11720 10809 2675 1157 1152 2908 5622 2941 1316 1712 2292 1193
 
 # =============================================================================
 # Built-in targets
