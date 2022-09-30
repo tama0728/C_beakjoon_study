@@ -5,10 +5,19 @@
 #include <stdio.h>
 
 int main(void) {
-    char txt[101];
-    while (scanf("%[^\n]",txt)!=EOF) {
-        printf("%s\n", txt);
-        getchar();
+    char c;
+    int i=0; int j=0;
+    while(j<100){
+        i = 0;
+        while(i<100){
+            c=getchar();
+            if(c==EOF)
+                return 0;
+            putchar(c);
+            i++;
+        }
+        j++;
     }
+
     return 0;
 }
